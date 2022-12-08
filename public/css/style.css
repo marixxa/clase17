@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: roboto;
+    font-size: 12px;
+}
+
+header{
+    background: #EAC926;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-size: 2em;
+    margin-bottom: 10px;
+    
+}
+
+
+.titulo-ultima-visita{
+    font-size: 24px
+}
+
+.precio{
+    font-size: 18px;
+}
+.descuentos{
+    font-size: 16px;
+}
+footer{
+    text-align: center;
+}
+.burger-menu{
+    text-align: center;
+    background: #1259c3;;
+    color: white;
+    width: 50px;
+    margin: 0 auto;
+    border-radius: 2px;
+}
