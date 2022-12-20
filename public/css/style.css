@@ -16,8 +16,12 @@ header{
 .barra{
     width: 50%;
 }
-.logo{
+.logo-img{
     width: 50%;
+}
+.logo-box{
+/*display: flex;
+flex-wrap: wrap;*/
 }
 
 a{
@@ -76,6 +80,7 @@ footer{
 
 .box-descripcion-productos{
     border-top: solid 1px #ebebed;
+    position: relative;
     padding: 15px;
     display: flex;
     flex-wrap: wrap;
@@ -93,12 +98,13 @@ main section article i{
     width: 30px;
     height: 30px;
     border: 1px solid #39b54a;
+    color: #39b54a;
     background-color: #FFF;
     border-radius: 50%;
-    position: relative;
+    position: absolute;
     right: 20px;
     top: -15px;
-
+}
 
 @media (min-width:481px){
     /*tablet*/
@@ -109,6 +115,7 @@ main section article i{
     .product-shadow{
         box-shadow: none;
     }
+
     .nombre-producto{
         display: none;
     }
@@ -119,5 +126,5 @@ main section article i{
 
 @media (min-width:1281px){
     /*desktop*/
-    display: none;
+    
 }
