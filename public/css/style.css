@@ -100,10 +100,37 @@ main section article i{
     right: 20px;
     top: -15px;
 }
+.form{
+    padding: 20px 15px;
+    background-color: aquamarine;
+}
+.box-form{
+    background-color: gray;
+}
+
+.elementos-form{
+    margin-bottom: 15px;
+}
+.elementos-form label{
+    margin-bottom: 5px;
+    display: block;
+}
+.categorias{
+    margin-bottom: 20px;
+}
+.labels{
+    margin-top: 15px;
+    font-size: 16px ;
+}
+
 
 @media (min-width:481px){
     /*tablet*/
-       
+       .product-shadow{
+        box-shadow: none;
+       }
+
+
 }
 
 @media (min-width:769px){
@@ -111,16 +138,25 @@ main section article i{
     .product-shadow{
         box-shadow: none;
     }
+.product{
+    width: 50%;
+}
 
-    .producto:hover .description{
-       
+    .product:hover .description{
          display: block;
+    }
+    .description{
+        display: none;
     }
     .burger-menu{
         display: none;
     }
-    .product-shadow:hover{
-        display: block;
+    .product:hover{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+    .transition:hover{
+        transform: rotate(-360deg);
+        transition-duration: 5s;
     }
     
 }
@@ -130,4 +166,8 @@ main section article i{
     .box-descripcion-productos:hover .nombre-producto{
         display: block;
     }
+    .product-shadow:hover{
+        display: block;
+    }
+
 }
