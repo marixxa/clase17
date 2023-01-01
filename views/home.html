@@ -7,6 +7,7 @@
     
     <title>Document</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
 
@@ -14,33 +15,43 @@
 <body>
     <header class="header-box">
         <section >
-            <article classe logo-box>
+            <article class="logo-box">
                 <img class="logo-img"  src="/images/logo-mercado-liebre.svg">  
-                <nav class="barra" <i class="fas fa-search"> </i>  <input type="text"> </nav>
+               
+                    
+                        <nav class="barra" >
+                            <input type="text" placeholder="Buscar Productos" >
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        
+                        </nav>
+                  
+                
+                <div class="manito"><i class="fas fa-hand-holding-usd"> </i>  Comprá en cuotas y sin tarjeta de crédito</div>
             </article>       
         </section>
 
-        <div>
-              <i class="fas fa-hand-holding-usd"> </i>  Comprá en cuotas y sin tarjeta de crédito
-        </div>
-        <section>
-            <nav>
-                <ul>
+        <section class="menu">
+            <nav class="nav-menu">
+                <div class="box-menu1">
+                    <ul class="menu1">
                     
-                    <li> <a href="Ofertas"> Ofertas</a> </li>
-                    <li><a href="Tiendas Oficiales"> Tiendas Oficiales </a>  </li>
-                    <li><a href="Vender">Vender</a> </li>
-                    <li><a href="Ayuda">Ayuda</a> </li>
-                </ul>
-            <nav>
-                <ul>
-                    <li><a href="/registro">Creá tu cuenta </a>  <i class="fas fa-address-card"></i> </li>
-                    <li><a href="/login"> Ingresá </a> <i class="fas fa-sign-in-alt"></i> </li>
-                    <li><a href="Mis compras">Mis compras </a>  <i class="fas fa-shopping-basket"></i> </li>
-                </ul>
+                        <li> <a href="Ofertas"> Ofertas</a> </li>
+                        <li><a href="Tiendas Oficiales"> Tiendas Oficiales </a>  </li>
+                        <li><a href="Vender">Vender</a> </li>
+                        <li><a href="Ayuda">Ayuda</a> </li>
+                    </ul>
+                </div>
+            
+                <div class="box-menu2">
+                    <ul class="menu2">
+                        <li><a href="/registro">Creá tu cuenta </a>  <i class="fas fa-address-card"></i> </li>
+                        <li><a href="/login"> Ingresá </a> <i class="fas fa-sign-in-alt"></i> </li>
+                        <li><a href="Mis compras">Mis compras </a>  <i class="fas fa-shopping-basket"></i> </li>
+                    </ul>
+                </div>
             </nav>    
                
-            </nav>
+            
         </section>
         <div class="burger-menu">
             <i class="fas fa-bars"></i>
@@ -51,7 +62,7 @@
 
     <div class="main-box">
         <main>
-            <section>
+            <section class="contededor-productos">
                 <h2 class="titulo-ultima-visita"> Basado en tu última visita</h2>
                     <article class="product-shadow product">    
                         <img src="/images/img-cafetera-moulinex.jpg" alt="Cafetera Moulinex">
