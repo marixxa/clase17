@@ -60,34 +60,41 @@
         <h3> DATOS PERSONALES</h3>
 
         <div class="elementos-form">
-            <label for="nombre"> Nombre y Apellido: </label>
-            <input type="text" name="nombre">
-        </div>
-        <div class="elementos-form">
-            <label for="email"> Email </label>
-            <input type="email" name="email" placeholder="example@pepito.com">
+            <label for="nombre"> </label>
+            <input type="text" name="nombre" placeholder="Nombre y Apellido" class="input-form">
         </div>
 
         <div class="elementos-form">
-            <label for="nombre-usuario"> Nombre de Usuario </label>
-            <input type="text" name="nombre-usuario">
+            <label for="nombre-usuario"></label>
+            <input type="text" name="nombre-usuario" placeholder="Usuario" class="input-form">
         </div>
+
+        <div class="elementos-form">
+            <label for="email"> Email </label>
+            <input type="email" name="email" placeholder="example@pepito.com" class="input-form">
+        </div>
+
+        
 
         <div class="elementos-form">
             <label for="nombre"> Fecha de Nacimiento: </label>
-            <input type="date" name="fecha">
+            <input type="date" name="fecha" class="input-form">
         </div>
 
         <div class="elementos-form">
             <label for="domicilio"> Domicilio: </label>
-            <input type="text" name="domicilio">
+            <input type="text" name="domicilio"class="input-form">
         </div>
 
         <div class="elementos-form">
             <label for="consulta"> Perfil de Usuario: </label>
-            <label for="consulta">Comprador</label>
-            <input type="radio" name="respuesta" id="consulta">
-            <input type="radio" name="respuesta" id="consulta">
+
+            <div class="perfil-usuario">
+                <label for="consulta">Comprador</label>
+                <input type="radio" name="respuesta" id="consulta">
+                <label for="consulta">Vendedor</label>
+                <input type="radio" name="respuesta" id="consulta">
+            </div>
         </div>
 
 
@@ -113,12 +120,12 @@
 
         <div class="elementos-form">
             <label for="password"> Contraseña </label>
-            <input type="password" name="contraseña" >
+            <input type="password" name="contraseña" class="input-form" >
         </div>
 
         <div class="elementos-form">
-            <label for="password">  Confirmar Contraseña </label>
-            <input type="password" name="contraseña" >
+            <label for="password"> </label>
+            <input type="password" name="contraseña" class="input-form" placeholder="Confirmar Contraseña" >
         </div>
 
         <button type="submit"> Enviar </button>
