@@ -17,6 +17,7 @@ header{
     width: 50%;
     display: flex;
     align-items: center;
+    margin-left: 20px;
 }
 .manito{
     width: 100%;
@@ -28,7 +29,7 @@ header{
     font-size: 1.5em;
 }
 .logo-img{
-    width: 50%;
+    width: 40%;
 }
 
 a{
@@ -69,11 +70,19 @@ img{
 }
 .logo-box{
     display: flex;
-    
     flex-wrap: wrap;
+}
+.lupa-box{
+    padding: 5px;
+    border-radius: 5px;
+    width: 250px;
 }
 footer{
     text-align: center;
+    justify-content: space-between;
+}
+footer i{
+    color: #1259c3;
 }
 .burger-menu{
     text-align: center;
@@ -104,6 +113,7 @@ footer{
     /*flex-direction: column;*/
 }
 
+
 .product-shadow{
 box-shadow: 0px 0px 10px rgb(100,100,100);
 }
@@ -124,19 +134,30 @@ main section article i{
 }
 .form{
     padding: 20px 15px;
-    background-color: aquamarine;
+    
     border-radius: 15px;
-    border: 2px solid black;
+    border: 1px solid black;
     margin: 0 auto;
-    width: 80%;
+    width: 40%;
 }
 .box-form{
-    background-color: gray;
+   
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
     
+}
+/*formularios*/
+
+.input-box{
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
 }
 
 .elementos-form{
-    margin-bottom: 15px;
+    margin-bottom: 35px;
 }
 .elementos-form label{
     margin-bottom: 5px;
@@ -151,12 +172,20 @@ main section article i{
 }
 /*login*/
 .boton{
-    padding: 5px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid;
 
 }
 .boton:hover{
     background-color:  #0022AA;
 }
+
+
+
+
+
 
 
 
@@ -174,9 +203,10 @@ main section article i{
     .product-shadow{
         box-shadow: none;
     }
-.product{
-    width: 50%;
-}
+    .product{
+        width: 50%;
+        padding: 15px;
+    }
 
     .product:hover .description{
          display: block;
@@ -193,6 +223,13 @@ main section article i{
     .transition:hover{
         transform: rotate(-360deg);
         transition-duration: 5s;
+    }
+    .contenedor-productos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .titulo-ultima-visita{
+        width: 100%;
     }
 
     .footer-box{
@@ -215,10 +252,10 @@ main section article i{
         align-items: center;
          
     }
-    .producto{
+    /*.producto{
         display: flex;
         align-content: center;
-    }
+    }*/
     .manito{
         
         margin-left: 0;
@@ -226,12 +263,10 @@ main section article i{
     }
     .barra{
         justify-content: center;
+        margin-left: 40px;
     }
     
-    .contenedor-productos{
-        display: flex;
-        flex-wrap: wrap;
-    }
+
     .nav-menu{
         display: flex;
         width: 100%;
@@ -282,6 +317,7 @@ main section article i{
     }
     .product{
         width: 25%;
+        padding: 10px;
         
     }
     .change-color:hover{
@@ -291,5 +327,8 @@ main section article i{
     .barra{
         width: auto;
     }
-    
+    .contenedor-productos{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
