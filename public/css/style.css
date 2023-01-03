@@ -23,10 +23,16 @@ header{
     width: 100%;
     margin-left: 60px;
     display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px
 }
 .barra i{
     margin: 0 auto;
     font-size: 1.5em;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 2px;
 }
 .logo-img{
     width: 40%;
@@ -36,9 +42,10 @@ a{
     text-decoration: none;
 }
 
-i{
+ footer i{
     font-size: 2em;
-    margin-bottom: 10px;    
+    margin-bottom: 10px;   
+    color: #1259c3; 
 }
 
 img{
@@ -46,9 +53,6 @@ img{
 }
 .menu{
     display: none;
-}
-.barra i{
-    background-color: whitesmoke;
 }
 
 .titulo-ultima-visita{
@@ -81,9 +85,7 @@ footer{
     text-align: center;
     justify-content: space-between;
 }
-footer i{
-    color: #1259c3;
-}
+
 .burger-menu{
     text-align: center;
     background: #1259c3;;
@@ -91,6 +93,8 @@ footer i{
     width: 50px;
     margin: 0 auto;
     border-radius: 2px;
+    padding: 10px;
+    font-size: 20px;
 }
 
 .main-box{
@@ -163,7 +167,9 @@ border: none;
 }
 
 .elementos-form{
-    margin-bottom: 35px;
+    
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .elementos-form label{
     margin-bottom: 5px;
@@ -171,10 +177,17 @@ border: none;
 }
 .categorias{
     margin-bottom: 20px;
+    margin-top: 20px;
 }
-.labels{
-    margin-top: 15px;
-    font-size: 16px ;
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+}
+.botones button{
+    width: 20%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid black;
 }
 /*login*/
 .boton{
@@ -200,7 +213,49 @@ border: none;
        .product-shadow{
         box-shadow: none;
        }
+       .burger-menu{
+        display: none;
+    }
+       .nav-menu{
+        display: flex;
+        width: 100%;
+    }
+    .box-menu1{
+        width: 50%;
+        margin: auto;
+    }
+    .box-menu2{
+        width: 50%;
+        margin: auto;
+    }
+    .menu1{
+        display: flex;
 
+    }
+    
+    .menu1 li{
+        margin-left: 10px;
+        margin-right: 10px;
+        list-style: none;
+    }
+    .menu2{
+        display: flex;
+        justify-content: end;
+       
+    }
+    .menu2 li{
+        margin-right: 15px;
+        list-style: none;
+    }
+    .menu{
+        display: flex;
+    }
+    .menu a{
+        color: black;
+    }
+    .menu a:hover{
+        color: #0022AA;
+    }
 
 }
 
